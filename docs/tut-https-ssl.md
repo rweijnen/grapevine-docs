@@ -12,7 +12,7 @@ While Grapevine absolutely supports using HTTPS, if you want your application to
 On the Grapevine side, it's easy to setup. All you have to do is add a prefix using the `https` protocol to signal to Grapevine that it needs to service SSL requests at that prefix.
 
 ```csharp
-server.Prefixes.Add("https://*:443/");
+server.Prefixes.Add("https://+:443/");
 ```
 
 ## Creating And Using Certificates
